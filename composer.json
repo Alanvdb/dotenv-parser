@@ -17,5 +17,7 @@
             "email": "alanvdb.coder@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "alanvdb/dotenv-interfaces": "^1.0"
+    }
 }
