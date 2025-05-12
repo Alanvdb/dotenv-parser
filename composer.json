@@ -1,0 +1,21 @@
+{
+    "name": "alanvdb/dotenv-parser",
+    "description": "Returns the .env file config as array.",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Alanvdb\\Server\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alanvdb",
+            "email": "alanvdb.coder@gmail.com"
+        }
+    ],
+    "require": {}
+}
