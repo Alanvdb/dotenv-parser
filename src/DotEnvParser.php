@@ -60,7 +60,10 @@ class DotEnvParser implements DotEnvParserInterface
                 throw new CannotParseDotEnv('Unable to read .env file.');
             }
             
-            return $this->parseEnvContents($envContents);
+            return array_merge(
+                $this->parseEnvContents($envContents),
+                ['ROOT_PATH' => $this->root]
+            );
         } catch (\Throwable $e) {
             if (!$e instanceof CannotParseDotEnv) {
                 throw new CannotParseDotEnv(
