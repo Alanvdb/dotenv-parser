@@ -1,0 +1,7 @@
+/.phpunit.cache/
+/coverage/
+/logs/
+/tests/
+/vendor/
+.gitignore
+phpunit.xml
